@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3030DC861F9E7270007176C7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3030DC851F9E7270007176C7 /* main.c */; };
+		3030DCAB1F9E8A4F007176C7 /* hfs_resize.c in Sources */ = {isa = PBXBuildFile; fileRef = 3030DCAA1F9E8A4F007176C7 /* hfs_resize.c */; };
+		3030DCAD1F9EA818007176C7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3030DCAC1F9EA818007176C7 /* libz.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3030DC801F9E7270007176C7 /* TwistedMind2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwistedMind2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3030DC841F9E7270007176C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3030DC851F9E7270007176C7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3030DCA91F9E72CE007176C7 /* partition_schemes_structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = partition_schemes_structs.h; sourceTree = "<group>"; };
+		3030DCAA1F9E8A4F007176C7 /* hfs_resize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hfs_resize.c; sourceTree = "<group>"; };
+		3030DCAC1F9EA818007176C7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		30BC670B1FA227FC00D254AD /* structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = structs.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3030DC7D1F9E7270007176C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3030DCAD1F9EA818007176C7 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3030DC771F9E7270007176C7 = {
+			isa = PBXGroup;
+			children = (
+				3030DCAC1F9EA818007176C7 /* libz.dylib */,
+				3030DC821F9E7270007176C7 /* TwistedMind2 */,
+				3030DC811F9E7270007176C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3030DC811F9E7270007176C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3030DC801F9E7270007176C7 /* TwistedMind2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3030DC821F9E7270007176C7 /* TwistedMind2 */ = {
+			isa = PBXGroup;
+			children = (
+				3030DCA91F9E72CE007176C7 /* partition_schemes_structs.h */,
+				30BC670B1FA227FC00D254AD /* structs.h */,
+				3030DCAA1F9E8A4F007176C7 /* hfs_resize.c */,
+				3030DC851F9E7270007176C7 /* main.c */,
+				3030DC831F9E7270007176C7 /* Supporting Files */,
+			);
+			path = TwistedMind2;
+			sourceTree = "<group>";
+		};
+		3030DC831F9E7270007176C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3030DC841F9E7270007176C7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3030DC7F1F9E7270007176C7 /* TwistedMind2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3030DCA31F9E7270007176C7 /* Build configuration list for PBXNativeTarget "TwistedMind2" */;
+			buildPhases = (
+				3030DC7C1F9E7270007176C7 /* Sources */,
+				3030DC7D1F9E7270007176C7 /* Frameworks */,
+				3030DC7E1F9E7270007176C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwistedMind2;
+			productName = TwistedMind2;
+			productReference = 3030DC801F9E7270007176C7 /* TwistedMind2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3030DC781F9E7270007176C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = noname;
+				TargetAttributes = {
+					3030DC7F1F9E7270007176C7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 3030DC7B1F9E7270007176C7 /* Build configuration list for PBXProject "TwistedMind2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3030DC771F9E7270007176C7;
+			productRefGroup = 3030DC811F9E7270007176C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3030DC7F1F9E7270007176C7 /* TwistedMind2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3030DC7E1F9E7270007176C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3030DC7C1F9E7270007176C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3030DCAB1F9E8A4F007176C7 /* hfs_resize.c in Sources */,
+				3030DC861F9E7270007176C7 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3030DCA11F9E7270007176C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3030DCA21F9E7270007176C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3030DCA41F9E7270007176C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = TwistedMind2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3030DCA51F9E7270007176C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = TwistedMind2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3030DC7B1F9E7270007176C7 /* Build configuration list for PBXProject "TwistedMind2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3030DCA11F9E7270007176C7 /* Debug */,
+				3030DCA21F9E7270007176C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3030DCA31F9E7270007176C7 /* Build configuration list for PBXNativeTarget "TwistedMind2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3030DCA41F9E7270007176C7 /* Debug */,
+				3030DCA51F9E7270007176C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3030DC781F9E7270007176C7 /* Project object */;
+}
